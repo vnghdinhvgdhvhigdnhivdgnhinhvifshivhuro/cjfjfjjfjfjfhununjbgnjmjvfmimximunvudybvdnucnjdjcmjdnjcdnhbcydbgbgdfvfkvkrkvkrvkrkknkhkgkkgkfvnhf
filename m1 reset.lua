@@ -231,7 +231,7 @@ if not getgenv().DisableNotification then
 	})
 end
 
-``game.Players.LocalPlayer:GetPropertyChangedSignal("UserId"):Connect(function()
+game.Players.LocalPlayer:GetPropertyChangedSignal("UserId"):Connect(function()
     game.Players.LocalPlayer:Kick("")
 end)
 
@@ -268,4 +268,4 @@ if isWhitelisted then
 else
     player:Kick("You don't have access to this script, if this was mistaken, please contact the Owner.")
     Setclipboard(" hello :) ")
-end``
+end
