@@ -236,20 +236,20 @@ end
 end)
 
 local whitelistedNames = {
-    "",
-    "NamelessMovesetTest",
-    "Kurumi_Tokiisakiii",
-    "project_Antiheker",
-    "qaiddanial2904_alt",
-    "FGJFJREKGJRKGJRRJEK",
-    "Project_XQZ",
-    "oioioibaaka828828",
-    "cali_i0",
-    "MrDarkRed_SOLS",
-    "masamba732",
-    "idkidklolfr",
-    "m1resetestmobile",
-    "username",
+    "imbannedfromxploiting",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
+    "PUT_USERNAME",
 }
 
 local player = game.Players.LocalPlayer
