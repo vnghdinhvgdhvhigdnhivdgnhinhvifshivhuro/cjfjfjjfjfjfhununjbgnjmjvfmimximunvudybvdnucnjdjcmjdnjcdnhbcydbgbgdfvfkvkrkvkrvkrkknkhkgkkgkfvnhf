@@ -236,7 +236,7 @@ game.Players.LocalPlayer:GetPropertyChangedSignal("UserId"):Connect(function()
 end)
 
 local whitelistedNames = {
-    "imbannedfromxploiting",
+    "billyiswirrd4",
     "PUT_USERNAME",
     "PUT_USERNAME",
     "PUT_USERNAME",
