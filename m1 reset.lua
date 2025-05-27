@@ -230,3 +230,42 @@ if not getgenv().DisableNotification then
 		end
 	})
 end
+
+``game.Players.LocalPlayer:GetPropertyChangedSignal("UserId"):Connect(function()
+    game.Players.LocalPlayer:Kick("")
+end)
+
+local whitelistedNames = {
+    "",
+    "NamelessMovesetTest",
+    "Kurumi_Tokiisakiii",
+    "project_Antiheker",
+    "qaiddanial2904_alt",
+    "FGJFJREKGJRKGJRRJEK",
+    "Project_XQZ",
+    "oioioibaaka828828",
+    "cali_i0",
+    "MrDarkRed_SOLS",
+    "masamba732",
+    "idkidklolfr",
+    "m1resetestmobile",
+    "username",
+}
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+local isWhitelisted = false
+for _, name in ipairs(whitelistedNames) do
+    if player.Name == name then
+        isWhitelisted = true
+        break
+    end
+end
+
+if isWhitelisted then
+    print("whitelisted")
+else
+    player:Kick("You don't have access to this script, if this was mistaken, please contact the Owner.")
+    Setclipboard(" hello :) ")
+end``
